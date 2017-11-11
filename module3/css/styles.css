@@ -1,0 +1,104 @@
+body {
+	font-size: 16;
+	color: black;
+	font-weight: bold;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-image: url(http://www.liangyifood.com/images/background.jpg);
+}
+.style1 {
+	color: #5643dd;
+	font-weight: bold;
+}
+
+#header-nav {
+	background-color: #a1122f;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+	padding-top: 15px;
+}
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #ee99ff;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-left: 0px;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-brand p {
+	vertical-align: middle;
+}
+#nav-list {
+	margin: 5px;
+}
+#nav-list a {
+	color: #eeeeee;
+	text-align: center;
+	border: 1.5px solid #ee99ff;
+    background: #127a9e;
+    font-size: 1.8em; 
+}
+#nav-list a:hover {
+	background: #e7e7e7;
+	color: #127a9e;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #ee99ff;
+}
+.row {
+	width: 100%;
+}
+
+#box1 {
+	margin-left: 30px;
+	margin-bottom: 20px;
+	padding: 5px;
+	background-color: gray;
+	border: 3px solid black;
+	overflow: auto;
+}	
+#box2 {
+	margin-left: 30px;
+	margin-bottom: 20px;
+	padding: 5px;
+	background-color: gray;
+	border: 3px solid black;
+	overflow: auto;
+}	
+#box3 {
+	margin-left: 30px;
+	margin-bottom: 20px;
+	padding: 5px;
+	background-color: gray;
+	border: 3px solid black;
+	overflow: auto;
+}	
+
+#p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin: 2px;
+}
+
+.a {
+	color: blue;
+	text-decoration:underline;
+}
+@media (max-width: 767px) {
+	.rowx {
+		width: 70%;
+	    position: relative;
+	    left: 80px;
+
+	}
+}
